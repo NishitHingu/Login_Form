@@ -17,7 +17,7 @@
         <div class="container">
             <h2>Create an Lorem account</h2>
             <p class="perks">One Lorem account for alot of random text</p>
-            <a>Learn more</a>
+            <a class="learn_more">Learn more</a>
             <form action="#" method="POST">
                     <ul>
                         <li>
@@ -27,7 +27,7 @@
                         <li>
                             <label for="phone">Phone (recommanded)</label>
                             <input id="phone" name="phone-number" type="tel" required>
-                            <span>Standard call, messaging or data rates may apply.</span>
+                            <p>Standard call, messaging or data rates may apply.</p>
                         </li>
                         <li>
                             <label for="password">Password</label>
@@ -35,14 +35,21 @@
                         </li>
                     </ul>
                     <button type="submit">Create Account</button> 
-                    <p>By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.</p>
-                    <div class="captcha">Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</div>
+                    <p class="terms_and_conditions">By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
+                    <div class="captcha">Invisible reCAPTCHA by Google Privacy Policy and <a href="#">Terms of Use.</a></div>
             </form>
         </div>
     </section>
     <footer>
-        
+        <div>
+            <a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a>
+            <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </div>
     </footer>
+    <div id="privacy">
+        <button class="privacy-btn">Privacy Settings</button>
+    </div>
     
 </body>
 </html>

@@ -43,6 +43,15 @@ header button{
     height: 2.5em;
     width: 6rem;
     margin-left: 1em;
+    background-color: #0077C5;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding-left: 1rem;
+    background-image: url(assets/padlock.png);
+    background-repeat: no-repeat;
+    background-size: 0.75rem;
+    background-position: 1em 0.75em;
 }
 header span{
     display: block;
@@ -50,9 +59,6 @@ header span{
 
 /*SECTION*/
 
-section{
-    height: 80%;
-}
 section h1{
     text-align: center;
     font-size: 40px;
@@ -61,29 +67,127 @@ section h1{
     margin: 2rem 0 1rem 0;
 }
 .container{
-    height: 45rem;
+    height: 40rem;
     width: 24rem;
     margin: 20px auto 20px auto;
     background-color: white;
     border: 1px solid #ccc;
-    padding: 1rem;
     text-align: center;
     font-family: sans-serif;
 }
 h2{
     font-size: 24px;
-    padding: 1rem 0 1rem 0;
+    padding: 2rem 0 1rem 0;
     opacity: 0.8;
 }
 .perks{
-    font-size: 16px;
+    font-size: 14px;
+    color: #333;
     padding: 0.75em 0 0 0;
 }
-.container a{
+.learn_more{
     font-size: 14px;
     color: blue;
+    cursor: pointer;
 }
+form li label{
+    display: block;
+    text-align: left;
+    margin: 2rem 0 0.5rem 1.75rem;
+    font-size: 15px;
+    color: #282828;
+}
+form input{
+    height: 2rem;
+    width: 85%;
+    padding: 2px;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+}
+form li p{
+    font-size: 11px;
+    text-align: left;
+    padding-left: 2.5em;
+    padding-top: 0.5em;
+    color: #444;
+}
+form button{
+    display: block;
+    width: 85%;
+    height: 2.5rem;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2rem 0 3rem 1.75rem;
+    background-color: #0077C5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-image: url(assets/padlock.png);
+    background-repeat: no-repeat;
+    background-position: 5rem 0.75rem;
+    background-size: 0.8em;
+}
+.terms_and_conditions{
+    font-size: 12px;
+    color: #444;
+    font-style: italic;
+    padding: 0 3rem;
+}
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
+.captcha{
+    display: block;
+    font-size: 10px;
+    color: #444;
+    background-color: #ECEEF1;
+    margin: 1rem 0;
+    padding:1.5rem 0;
+    height: 3.45rem;
+    opacity: 0.7;
+}
+
+/*FOOTER*/
+
 footer{
-    height: 10%;
-    background-color: gray;
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+    margin: 1rem 0;
+}
+footer a{
+    color: #444;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 1rem;
+}
+footer p{
+    padding: 0.5rem 21%;
+}
+
+.privacy-btn{
+    position: fixed;
+    top: 94%;
+    left: 85%;
+    height: 6%;
+    width: 9em;
+    font-size: 14px;
+    padding: 0.5em 1em;
+    background-color: rgba(80, 80, 80, 0.8);
+    color: whitesmoke;
+    white-space: nowrap;
+    border: none;
+    border-radius: 5px;
+}
+
+/*element state effects*/
+
+form input:focus{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    border: 1px solid #52A8EC;
+    outline: none;
+}
+footer a:hover{
+    text-decoration: underline;
 }
