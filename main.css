@@ -6,9 +6,7 @@ html{
 	font: inherit;
 }
 
-html,body{
-    height: 100%;
-}
+
   
 *, *:before, *:after{
     box-sizing: inherit;
@@ -30,10 +28,13 @@ img{
 }
 
 /*main cs*/
+body{
+    background-color: #ECEEF1;
+}
+/*HEADER*/
 
 header{
     height: 10%;
-    background-color: white;
     text-align: end;
     padding: 0.5rem 1rem 0 0;
 }
@@ -46,12 +47,43 @@ header button{
 header span{
     display: block;
 }
+
+/*SECTION*/
+
 section{
     height: 80%;
-    background-color: whitesmoke;
+}
+section h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    opacity: 0.7;
+    margin: 2rem 0 1rem 0;
+}
+.container{
+    height: 45rem;
+    width: 24rem;
+    margin: 20px auto 20px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 24px;
+    padding: 1rem 0 1rem 0;
+    opacity: 0.8;
+}
+.perks{
+    font-size: 16px;
+    padding: 0.75em 0 0 0;
+}
+.container a{
+    font-size: 14px;
+    color: blue;
 }
 footer{
     height: 10%;
     background-color: gray;
-
 }
