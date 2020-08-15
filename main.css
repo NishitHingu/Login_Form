@@ -87,7 +87,6 @@ h2{
 }
 .learn_more{
     font-size: 14px;
-    color: blue;
     cursor: pointer;
 }
 form li label{
@@ -154,7 +153,7 @@ footer{
     text-align: center;
     font-size: 14px;
     color: #444;
-    margin: 1rem 0;
+    margin: 1rem 0 0 0;
 }
 footer a{
     color: #444;
