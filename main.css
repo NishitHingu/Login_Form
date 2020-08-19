@@ -36,6 +36,8 @@ body{
 header{
     height: 10%;
     text-align: end;
+    font-size: 16px;
+    color: #282828;
     padding: 0.5rem 1rem 0 0;
 }
 header button{
@@ -53,8 +55,13 @@ header button{
     background-size: 0.75rem;
     background-position: 1em 0.75em;
 }
+
+#sign-in::before,#sign-in::after{
+    clear: both;
+}
 header span{
     display: block;
+    font-size: 14px;
 }
 
 /*SECTION*/
@@ -167,10 +174,10 @@ footer p{
 
 .privacy-btn{
     position: fixed;
-    top: 94%;
-    left: 85%;
-    height: 6%;
-    width: 9em;
+    top: 94vh;
+    left: 85vw;
+    height: 6vh;
+    right: 90vw;
     font-size: 14px;
     padding: 0.5em 1em;
     background-color: rgba(80, 80, 80, 0.8);
